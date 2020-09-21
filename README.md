@@ -6,7 +6,7 @@ Parameterized quantum circuits play an essential role in the performance of many
 
 The circuits were trained using two repetitions of a feature map, followed by a standard (fixed) variational circuit, in order to set a standard to compare and validate performance across different choices of feature maps. All the circuits were trained to classify the digits `4` and `9` from a subset of the [MNIST](http://yann.lecun.com/exdb/mnist/) Dataset. The data used for training the models in this repository is available [here](https://gitlab.com/GlazeDonuts/vqc-datasets/-/blob/master/datasets/dataset_4_9.csv). Further, 5% of data was initially segregated to use as a validation/testing dataset during the process of training.
 
-More than 20 feature maps were tested by coupling them with an `EfficientSU2`, linearly entangled, variational circuit, repeated twice. All the circuits were trained using 4% of the training data using the `COBYLA` optimizer for 100 iterations. Below is table summarising the scores.
+More than 20 feature maps were tested by coupling them with an `EfficientSU2`[2], linearly entangled, variational circuit, repeated twice. All the circuits were trained using 4% of the training data using the `COBYLA`[2] optimizer for 100 iterations. Below is table summarising the scores.
 
 
 |   Experiment No.    | Score (%)|
@@ -56,7 +56,7 @@ The feature map from experiment 10 was deployed with three repetitions as shown 
 <img src="https://github.com/GlazeDonuts/Variational-Quantum-Classifier/blob/master/resources/final_fmap.jpg?raw=True"/>
 </p>
 
-The above feature map was coupled with a varitaional circuit implemented using the `TwoLocal` variational quantum circuit module from Qiskit. The parameters and their values are listed below:
+The above feature map was coupled with a varitaional circuit implemented using the `TwoLocal`[2] variational quantum circuit module from Qiskit. The parameters and their values are listed below:
 * `num_qubits = 3`
 * `rotation_blocks = ['ry', 'rz']`
 * `entanglement_blocks = ['cx']`
