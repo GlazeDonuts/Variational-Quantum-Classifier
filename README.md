@@ -6,7 +6,7 @@ This repository contains a set of experiments and comparisons between different 
 
 ## Experiments
 
-The circuits were trained using two repetitions of a feature map, followed by a standard (fixed) variational circuit, in order to set a standard to compare and validate performance across different choices of feature maps. All the circuits were trained to classify the digits `4` and `9` from a subset of the [MNIST](http://yann.lecun.com/exdb/mnist/) Dataset. The data used for training the models in this repository is available [here](https://gitlab.com/GlazeDonuts/vqc-datasets/-/blob/master/datasets/dataset_4_9.csv). Further, 5% of data was initially segregated to use as a validation/testing dataset during the process of training.
+The circuits were trained using two repetitions of a feature map, followed by a standard (fixed) variational circuit, in order to set a standard to compare and validate performance across different choices of feature maps. All the circuits were trained to classify the digits `4` and `9` from a subset of the [MNIST](http://yann.lecun.com/exdb/mnist/) Dataset (reduced to 3 dimensions using SNE). The data used for training the models in this repository is available [here](https://gitlab.com/GlazeDonuts/vqc-datasets/-/blob/master/datasets/dataset_4_9.csv). Further, 5% of data was initially segregated to use as a validation/testing dataset during the process of training.
 
 More than 20 feature maps were tested by coupling them with an `EfficientSU2`[2], linearly entangled, variational circuit, repeated twice. All the circuits were trained using 4% of the training data using the `COBYLA`[2] optimizer for 100 iterations. Below is table summarising the scores.
 
