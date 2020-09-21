@@ -68,5 +68,5 @@ The above feature map was coupled with a varitaional circuit implemented using t
 </p>
 
 ### References:
-[1] [Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms](https://arxiv.org/abs/1905.10876)
+[1] [Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms](https://arxiv.org/abs/1905.10876)\
 [2] [Qiskit Documentation](https://qiskit.org/documentation/index.html)
