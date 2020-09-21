@@ -1,6 +1,6 @@
 # Variational Quantum Classifier
 
-This repository contains a set of experiments and comparisons between different feature maps used in an elementary implementation of a Quantum Variational Classifier circuit, developed from scratch, using Qiskit.
+Parameterized quantum circuits play an essential role in the performance of many variational hybrid quantum-classical (HQC) algorithms. One challenge in implementing such algorithms is to choose an effective circuit that well represents the solution space while maintaining a low circuit depth and number of parameters[1]. This repository contains a set of experiments and comparisons between different feature maps used in an elementary implementation of a Quantum Variational Classifier circuit, developed from scratch, using Qiskit.
 
 ## Experiments
 
@@ -68,5 +68,5 @@ The above feature map was coupled with a varitaional circuit implemented using t
 </p>
 
 ### References:
-* [Qiskit Documentation](https://qiskit.org/documentation/index.html)
-* [Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms](https://arxiv.org/abs/1905.10876)
+[1] [Expressibility and entangling capability of parameterized quantum circuits for hybrid quantum-classical algorithms](https://arxiv.org/abs/1905.10876)
+[2] [Qiskit Documentation](https://qiskit.org/documentation/index.html)
