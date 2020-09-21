@@ -51,7 +51,7 @@ The hyperparameters and other specifications of the best circuit are tabulated b
 | Training Samples | (10%) 270 per class |
 | Optimizer        | COBYLA              |
 | Number of epochs | 250                 |
-| Tolerance        | $10^{-6}$           |
+| Tolerance        | <img src="https://render.githubusercontent.com/render/math?math=10^{-6}">           |
 
 The feature map from experiment 10 was deployed with three repetitions as shown below.
 <p align="center">
